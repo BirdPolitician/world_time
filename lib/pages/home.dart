@@ -17,9 +17,12 @@ class _HomeState extends State<Home> {
           OutlinedButton.icon(
               onPressed: () {Navigator.pushNamed(context, '/location');},
               icon: const Icon(Icons.edit_location),
-              label: const Text("Edit Location"))
+              label: const Text("Edit Location here"))
         ],
       )),
     );
   }
 }
+
+
+//Example update
